@@ -1,0 +1,39 @@
+<!doctype html>
+<html manifest="manifest.appcache">
+  <head>
+    <meta charset="utf-8">
+    <title>Things To Do</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+  </head>
+  
+  <body>
+  	<div class="container">
+    	<div class="content">
+		    <h1>Things To Do</h1>
+        
+        <div class="todo-form">
+        	<form id="todo-form">
+          	<input type="text" id="todo-new" name="todo-new" placeholder="Add a task">
+						<input type="submit" id="todo-add" value="Add">
+          </form>
+        </div>
+        
+        
+        <div class="todo-list">
+        	<h3 id="all-tasks">All tasks</h3>	
+        	<ul id="show-tasks"><li>Testing</li><li>Testing2</li><li>Testing again</li></ul>
+        </div>
+        
+        <div class="clear-todo">
+        	<a href="#" id="clear-all">Clear all checked items</a>
+        </div>
+    
+    
+    
+    	</div><!-- END .content -->
+    </div><!-- END .container -->
+		
+		<script src="jquery-1.11.0.min.js" type="application/javascript"></script>
+		<script src="script.js" type="application/javascript"></script>
+  </body>
+</html>
